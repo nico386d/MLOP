@@ -15,7 +15,7 @@ PYTHON_VERSION = "3.11"
 @task
 def git(ctx, message):
     ctx.run(f"git add .")
-    ctx.run(f'git commit -m "{message}"')
+    ctx.run(f"git commit -m '{message}'")
     ctx.run(f"git push")
 
 @task
