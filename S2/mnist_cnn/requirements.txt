@@ -1,0 +1,8 @@
+torch==2.9.1
+torchvision==0.24.1
+torchaudio==2.9.1
+scikit-learn
+typer
+typer==0.15.2
+fastapi==0.115.12
+uvicorn==0.34.2
