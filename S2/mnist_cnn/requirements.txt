@@ -6,3 +6,5 @@ typer
 typer==0.15.2
 fastapi==0.115.12
 uvicorn==0.34.2
+matplotlib
+hydra

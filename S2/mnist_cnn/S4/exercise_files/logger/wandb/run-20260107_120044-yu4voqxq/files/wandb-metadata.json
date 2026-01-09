@@ -1,0 +1,40 @@
+{
+  "os":  "Windows-10-10.0.26100-SP0",
+  "python":  "CPython 3.11.14",
+  "startedAt":  "2026-01-07T11:00:44.346447Z",
+  "program":  "C:\\Users\\nico3\\MLOP\\S2\\mnist_cnn\\S4\\exercise_files\\logger\\train.py",
+  "codePath":  "S2\\mnist_cnn\\S4\\exercise_files\\logger\\train.py",
+  "codePathLocal":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/nico386d/MLOP.git",
+    "commit":  "3ad82842c3699a787affc0c7ec5019abefdb6535"
+  },
+  "email":  "nico386d@gmail.com",
+  "root":  "C:\\Users\\nico3\\MLOP\\S2\\mnist_cnn\\S4\\exercise_files\\logger",
+  "host":  "Nicolai",
+  "executable":  "C:\\Users\\nico3\\miniforge3\\envs\\MLOP\\python.exe",
+  "cpu_count":  8,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "509722226688",
+      "used":  "344603172864"
+    }
+  },
+  "memory":  {
+    "total":  "25463480320"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+      "memoryTotal":  "6442450944",
+      "cudaCores":  2560,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-95e2002b-af95-7324-0e2b-ada4d73647f9"
+    }
+  ],
+  "cudaVersion":  "12.9",
+  "writerId":  "wb9u8v0bkhdnpxbr5rog3t298oyld1sn"
+}

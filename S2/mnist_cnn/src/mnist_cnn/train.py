@@ -6,8 +6,16 @@ from mnist_cnn.model import MyAwesomeModel
 
 from mnist_cnn.data import corrupt_mnist
 
+
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
 
+class my_hp:
+    batch_size: 64
+    lr: 128
+    other_hp: 12345
+
+# easy access to them
+dl = DataLoader(Dataset, batch_size=my_hp.batch_size)
 
 def train(lr: float = 1e-3, batch_size: int = 32, epochs: int = 10) -> None:
     """Train a model on MNIST."""
