@@ -1,0 +1,24 @@
+program: S4/exercise_files/logger/train.py
+method: random
+name: corrupt-mnist-sweep
+
+project: corrupt_mnist
+entity: nico386d-danmarks-tekniske-universitet-dtu
+
+metric:
+  name: train_loss
+  goal: minimize
+
+parameters:
+  lr:
+    distribution: log_uniform_values
+    min: 0.0001
+    max: 0.01
+
+  batch-size:
+    values: [16, 32, 64]
+
+  epochs:
+    values: [5, 10]
+
+run_cap: 10
